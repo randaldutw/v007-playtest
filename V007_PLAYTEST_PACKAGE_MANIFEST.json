@@ -1,73 +1,76 @@
 {
-  "name": "??? v007 Playtest Web Export Source Package",
-  "runtime_file_count": 57,
+  "name": "Liyuan Ji v007 Playtest Web Export",
+  "build_date": "2026-06-01",
+  "godot": "4.6.2-stable",
+  "source_project": "builds/v007_playtest_project",
+  "export_output": "builds/v007_playtest_web/index.html",
   "main_scene": "res://scenes/v007_prototype/V007ArpgPrototype.tscn",
-  "includes_chinese_font": true,
-  "font_files": [
-    "assets/fonts/noto_sans_tc_font.tres",
-    "assets/fonts/NotoSansTC-VF.ttf"
-  ],
-  "notes": [
-    "This is an isolated export project generated from the current v007 prototype working tree.",
-    "Only runtime resources needed by v007 playtest were copied."
+  "deployed_repo": "https://github.com/randaldutw/v007-playtest.git",
+  "playtest_url": "https://randaldutw.github.io/v007-playtest/",
+  "includes": [
+    "blackwater sandplain stage",
+    "two-stage belt-scroll ARPG flow",
+    "boss battle",
+    "updated Mo Yan sprites",
+    "slash skill set",
+    "point energy UI",
+    "heal-charge UI"
   ],
   "files": [
-    "icon.svg",
-    "assets/fonts/noto_sans_tc_font.tres",
-    "assets/fonts/NotoSansTC-VF.ttf",
-    "scenes/v007_prototype/V007ArpgPrototype.tscn",
-    "scripts/v007_prototype/v007_arpg_prototype.gd",
-    "assets/preview/v007/characters/moyan/sticker_weapon_arpg_idle_v002/frames/native_128/moyan_idle_128_v002.png",
-    "assets/preview/v007/characters/moyan/sticker_weapon_arpg_pose_pair_01/frames/native_128/moyan_move_128_v001.png",
-    "assets/preview/v007/characters/moyan/sticker_weapon_arpg_sleeve_cast_restart_v001/frames/native_192x128/moyan_sleeve_cast_192x128_v001.png",
-    "assets/prototype/v005/generated_pixel_assets_v001_2026_05_21/sprites_48x48/energy_ball_blue_48x48.png",
-    "assets/audio/v007/prototype/sfx_v007_cast_muffled_v001.wav",
-    "assets/audio/v007/prototype/sfx_v007_hit_muffled_v001.wav",
-    "assets/prototype/v005/generated_pixel_assets_v001_2026_05_21/sprites_48x48/monster_slime_48x48.png",
-    "assets/prototype/v005/generated_pixel_assets_v001_2026_05_21/sprites_48x48/monster_wolf_48x48.png",
-    "assets/prototype/v005/generated_pixel_assets_v001_2026_05_21/sprites_48x48/monster_bat_48x48.png",
-    "assets/prototype/v005/generated_pixel_assets_v001_2026_05_21/sprites_48x48/monster_snake_48x48.png",
-    "assets/prototype/v005/generated_pixel_assets_v001_2026_05_21/sprites_48x48/monster_scorpion_48x48.png",
-    "assets/prototype/v005/generated_pixel_assets_v001_2026_05_21/sprites_48x48/monster_lizard_48x48.png",
-    "assets/preview/v007/fx/bluegreen_energy_48_v001/heavy_blade_cleave_48x48/heavy_blade_cleave-1.png",
-    "assets/preview/v007/fx/bluegreen_energy_48_v001/heavy_blade_cleave_48x48/heavy_blade_cleave-2.png",
-    "assets/preview/v007/fx/bluegreen_energy_48_v001/heavy_blade_cleave_48x48/heavy_blade_cleave-3.png",
-    "assets/preview/v007/fx/bluegreen_energy_48_v001/heavy_blade_cleave_48x48/heavy_blade_cleave-4.png",
-    "assets/preview/v007/fx/bluegreen_energy_48_v001/heavy_blade_cleave_48x48/heavy_blade_cleave-5.png",
-    "assets/preview/v007/fx/bluegreen_energy_48_v001/heavy_blade_cleave_48x48/heavy_blade_cleave-6.png",
-    "assets/preview/v007/fx/bluegreen_energy_48_v001/beast_claw_rend_48x48/beast_claw_rend-1.png",
-    "assets/preview/v007/fx/bluegreen_energy_48_v001/beast_claw_rend_48x48/beast_claw_rend-2.png",
-    "assets/preview/v007/fx/bluegreen_energy_48_v001/beast_claw_rend_48x48/beast_claw_rend-3.png",
-    "assets/preview/v007/fx/bluegreen_energy_48_v001/beast_claw_rend_48x48/beast_claw_rend-4.png",
-    "assets/preview/v007/fx/bluegreen_energy_48_v001/beast_claw_rend_48x48/beast_claw_rend-5.png",
-    "assets/preview/v007/fx/bluegreen_energy_48_v001/beast_claw_rend_48x48/beast_claw_rend-6.png",
-    "assets/preview/v007/fx/bluegreen_energy_48_v001/sustained_line_beam_hit_48x48/sustained_line_beam_hit-1.png",
-    "assets/preview/v007/fx/bluegreen_energy_48_v001/sustained_line_beam_hit_48x48/sustained_line_beam_hit-2.png",
-    "assets/preview/v007/fx/bluegreen_energy_48_v001/sustained_line_beam_hit_48x48/sustained_line_beam_hit-3.png",
-    "assets/preview/v007/fx/bluegreen_energy_48_v001/sustained_line_beam_hit_48x48/sustained_line_beam_hit-4.png",
-    "assets/preview/v007/fx/bluegreen_energy_48_v001/sustained_line_beam_hit_48x48/sustained_line_beam_hit-5.png",
-    "assets/preview/v007/fx/bluegreen_energy_48_v001/sustained_line_beam_hit_48x48/sustained_line_beam_hit-6.png",
-    "assets/preview/v007/fx/bluegreen_energy_48_v001/sword_rapid_stab_48x48/sword_rapid_stab-1.png",
-    "assets/preview/v007/fx/bluegreen_energy_48_v001/sword_rapid_stab_48x48/sword_rapid_stab-2.png",
-    "assets/preview/v007/fx/bluegreen_energy_48_v001/sword_rapid_stab_48x48/sword_rapid_stab-3.png",
-    "assets/preview/v007/fx/bluegreen_energy_48_v001/sword_rapid_stab_48x48/sword_rapid_stab-4.png",
-    "assets/preview/v007/fx/bluegreen_energy_48_v001/sword_rapid_stab_48x48/sword_rapid_stab-5.png",
-    "assets/preview/v007/fx/bluegreen_energy_48_v001/sword_rapid_stab_48x48/sword_rapid_stab-6.png",
-    "assets/preview/v007/fx/bluegreen_energy_48_v001/needle_pierce_projectile_48x48/needle_pierce_projectile-1.png",
-    "assets/preview/v007/fx/bluegreen_energy_48_v001/needle_pierce_projectile_48x48/needle_pierce_projectile-2.png",
-    "assets/preview/v007/fx/bluegreen_energy_48_v001/needle_pierce_projectile_48x48/needle_pierce_projectile-3.png",
-    "assets/preview/v007/fx/bluegreen_energy_48_v001/needle_pierce_projectile_48x48/needle_pierce_projectile-4.png",
-    "assets/preview/v007/fx/bluegreen_energy_48_v001/sword_slash_48x48/sword_slash-1.png",
-    "assets/preview/v007/fx/bluegreen_energy_48_v001/sword_slash_48x48/sword_slash-2.png",
-    "assets/preview/v007/fx/bluegreen_energy_48_v001/sword_slash_48x48/sword_slash-3.png",
-    "assets/preview/v007/fx/bluegreen_energy_48_v001/sword_slash_48x48/sword_slash-4.png",
-    "assets/preview/v007/fx/bluegreen_energy_48_v001/sword_slash_48x48/sword_slash-5.png",
-    "assets/preview/v007/fx/bluegreen_energy_48_v001/sword_slash_48x48/sword_slash-6.png",
-    "assets/preview/v007/fx/bluegreen_energy_48_v001/sword_double_slash_48x48/sword_double_slash-1.png",
-    "assets/preview/v007/fx/bluegreen_energy_48_v001/sword_double_slash_48x48/sword_double_slash-2.png",
-    "assets/preview/v007/fx/bluegreen_energy_48_v001/sword_double_slash_48x48/sword_double_slash-3.png",
-    "assets/preview/v007/fx/bluegreen_energy_48_v001/sword_double_slash_48x48/sword_double_slash-4.png",
-    "assets/preview/v007/fx/bluegreen_energy_48_v001/sword_double_slash_48x48/sword_double_slash-5.png",
-    "assets/preview/v007/fx/bluegreen_energy_48_v001/sword_double_slash_48x48/sword_double_slash-6.png"
+    {
+      "name": ".nojekyll",
+      "bytes": 54,
+      "sha256": "876C12DA8C2A9CE270B83199CCA92B2822FE284DB5256462763AC5065AE33140"
+    },
+    {
+      "name": "index.apple-touch-icon.png",
+      "bytes": 7684,
+      "sha256": "0700CEFF741D1C4E7E943CCE217C88AE8C3992DD8403F1C48A2C1F930D1F9867"
+    },
+    {
+      "name": "index.audio.position.worklet.js",
+      "bytes": 2973,
+      "sha256": "BE33985BC7160D6BF9646F259CD86B259CD67B02CCB297EE5C44F8AC84327BC8"
+    },
+    {
+      "name": "index.audio.worklet.js",
+      "bytes": 7298,
+      "sha256": "5B476A9C9CE642C0EE4256436D1BC31D9C38F868ACA0F9A8E2A57C18D2DEC2A3"
+    },
+    {
+      "name": "index.html",
+      "bytes": 5449,
+      "sha256": "8C5F202589674467B342DC745D650B3BE19578A53D27D29E0AEC2B168B7AC88B"
+    },
+    {
+      "name": "index.icon.png",
+      "bytes": 835,
+      "sha256": "71AB9050C12907F3289D8BB6BB6B5C7D61698C2C5CB495FD0A2BC41AC47C7772"
+    },
+    {
+      "name": "index.js",
+      "bytes": 315759,
+      "sha256": "E3F56EE40E6F84371053DB06692CFAC15E2C8659547B11C6B2DFA1996DABD981"
+    },
+    {
+      "name": "index.pck",
+      "bytes": 46127208,
+      "sha256": "5CF423DC0CC94EE4CC22313A1C9381E30560C0F29D9737FBDE0AFB6F0AAF11B4"
+    },
+    {
+      "name": "index.png",
+      "bytes": 21443,
+      "sha256": "3CB4495C0B98DFBE4B663CBF2B6836473572339BEB66D902367893162A70BE0E"
+    },
+    {
+      "name": "index.wasm",
+      "bytes": 37695054,
+      "sha256": "CCA8BC7C462D348AAA3F318AECF3281D99BF219E182256412711B24F0D086D80"
+    },
+    {
+      "name": "README.md",
+      "bytes": 711,
+      "sha256": "BC9865C96C424FC6488FEE3B76F9BFBFEB2D6C25E2C61F7B225098F2A95152F2"
+    }
   ]
 }
